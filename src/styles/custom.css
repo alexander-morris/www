@@ -591,3 +591,7 @@ img.img-responsive.partner {
 .col-md-4.aboutright {
     min-width: 422px;
 }
+h3, h1, h2 {
+    font-family: 'Kanit', sans-serif !important;
+}
+
