@@ -525,7 +525,7 @@ img.img-profile-pic {
 }
 
 section.partners {
-    background: radial-gradient(400em 1500em, #d9d9d9, transparent), url(/images/tile_grid.svg) repeat;
+    background: white;
 }
 
 .partnerLogo {
@@ -587,4 +587,7 @@ img.img-responsive.events-featured {
 }
 img.img-responsive.partner {
     box-shadow: none;
+}
+.col-md-4.aboutright {
+    min-width: 422px;
 }
