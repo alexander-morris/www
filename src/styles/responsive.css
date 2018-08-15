@@ -160,7 +160,7 @@
 	/* Industry (non-homepage) */
 	.carousel-caption.nothome h3 {
 	    font-size: 7vw !important;
-	    margin-top: 5vw;
+	    margin-top: 0.05em;
 	}
 	.aboutleft h3 {
 	    display: none;
@@ -379,9 +379,31 @@
 	.partnerLogo {
 	    width: 45%;
 	}
+	.partners .container {
+		width: 100%;
+		padding-top: 5vh;
+	}
 	.container.profile {
 	    width: 80%;
 	}
+	.col-md-4 ._tile.industry {
+	    max-width: 30em;
+	    max-height: 30em;
+	}
+	.row.services-top-grids._tiles.industry {
+	    padding-top: 0;
+	    padding-bottom: 0;
+	}
+	.grid1 i.fas {
+	    font-size: 3em !important;
+	}
+	section.partners {
+	    min-height: 35vh;
+	}
+	ul.social_section_1info i {
+	    font-size: 1em;
+	}
 }
+
 
 
