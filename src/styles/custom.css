@@ -209,7 +209,7 @@ h4.modal-title {
     background-size: cover !important;
 }
 .serv-grid3 {
-    background: url(../images/BI_Automotive.jpg) no-repeat 0px 0px !important;
+    background: url(../images/DigitalIdentity_1.png) no-repeat 0px 0px !important;
     background-size: cover !important;
 }
 
@@ -474,13 +474,14 @@ section.serv-grids._web3 {
 }
 
 /* Footer Subscribe */
-.mc_signup.ng-scope {
+.mc_signup {
     height: 40px;
     text-align: center;
+    display: flex;
 }
 
 input.mc_subscribe_email {
-    height: 100%;
+    height: 30px;
     width: 70%;
     vertical-align: top;
 }
@@ -489,7 +490,7 @@ button.mc_subscribe {
     background-color: grey;
     border: 10pt;
     border-color: grey;
-    height: 100%;
+    height: 30px;
     min-width: 25px;
     vertical-align: top;
 
@@ -521,5 +522,79 @@ img.img-profile-pic {
 
 .container.profile {
     width: 60%;
+}
+
+section.partners {
+    background: white;
+}
+.partners .container {
+    width: 70%;
+}
+
+.partnerLogo {
+    width: 45%;
+    display: inline-block;
+    padding: 3em !important;
+}
+h3.events {
+    font-size: 1em;
+}
+img.img-events-pic {
+    height: 100%;
+    border-radius: 0.25em;
+}
+section.about.recentEvents {
+    padding-top: 0;
+}
+.event .row.ab-agile {
+    height: 8em !important;
+    background-color: white;
+    border-radius: 0.25em;
+    box-shadow: #0000001f 0px 0px 1px 2px;
+}
+.container.events {
+    padding: 2em;
+    background-color: #80808066;
+    border-radius: 0.15em;
+    -webkit-box-shadow: #00000052 0px 0px 1px 2px;
+    box-shadow: #0000001f 0px 0px 1px 1px;
+    padding-bottom: 0;
+}
+
+.col-md-4.aboutleft.event {
+    padding: 0;
+    border-radius: 0.25em;
+}
+.col-md-8.aboutright.event {
+    background-color: white;
+    padding: 1em;
+    border-top-right-radius: 0.25em;
+    border-bottom-right-radius: 0.25em;
+    /*box-shadow: #00000052 0px 0px 1px 2px;*/
+}
+h2.events.name {
+    font-size: 1.5em;
+}
+p.events.description {
+    display: none;
+}
+.events h1 {
+    font-size: 2em;
+}
+h3.events.title {
+    display: none;
+}
+img.img-responsive.events-featured {
+    border-radius: 0.1em;
+    box-shadow: #0000001f 0px 0px 1px 2px;
+}
+img.img-responsive.partner {
+    box-shadow: none;
+}
+.col-md-4.aboutright {
+    min-width: 422px;
+}
+h3, h1, h2 {
+    font-family: 'Kanit', sans-serif !important;
 }
 

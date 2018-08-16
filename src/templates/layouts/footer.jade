@@ -3,19 +3,19 @@ footer
   section.footer.footer_w3layouts_section_1its
     .container
       .row.footer-top
-        .col-lg-4.footer-grid_section_1its_w3
-          .footer-title
-            h3 Help
-          ul.links
+        //- .col-lg-4.footer-grid_section_1its_w3
+        //-   .footer-title
+        //-     h3 Help
+        //-   ul.links
 
-            li
-              a(href='web3') Web 3.0
-            li
-              a(href='/industries') Blockchain in Action
-            li
-              a(href='programs') Programs
-            li
-              a(href='events') Events
+        //-     li
+        //-       a(href='/web3/') Web 3.0
+        //-     li
+        //-       a(href='/industries/') Blockchain in Action
+        //-     li
+        //-       a(href='/network/') Network
+        //-     li
+        //-       a(href='/events/') Events
 
 
         .col-lg-4.footer-grid_section_1its_w3
@@ -24,7 +24,7 @@ footer
           .footer-text
             p
               | The Blockchain Institute was founded to promote the adoption, development, and use of blockchain technology. 
-              a(href="contact") Contact Us
+              a(href="/contact/") Contact Us
             ul.social_section_1info
               li
                 a(href='https://www.facebook.com/TheBlockchainInstitute')
@@ -48,7 +48,10 @@ footer
         //-     p
         //-       | Email : 
         //-       a(href='mailto:info@theblockchaininstitute.org') info@theblockchaininstitute.org
-        .col-lg-4.footer-grid_section_1its_w3(ng-app='mailManager' ng-controller='mailCtrl')
+        .col-lg-4.footer-grid_section_1its_w3
+          .footer-title
+                  
+        .col-lg-4.footer-grid_section_1its_w3(ng-app='signupManager' id="mc-signup-app" ng-controller='mcCtrl')
           .footer-title
             h3 Subscribe
           .footer-text
@@ -79,6 +82,7 @@ link(rel='icon', type='image/png', sizes='32x32', href='/favicon-32x32.png')
 link(rel='icon', type='image/png', sizes='16x16', href='/favicon-16x16.png')
 link(rel='manifest', href='/site.webmanifest')
 link(rel='mask-icon', href='/safari-pinned-tab.svg', color='#5bbad5')
+link(href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet")
 meta(name='msapplication-TileColor', content='#da532c')
 meta(name='theme-color', content='#ffffff')          
 // Load JavaScript
