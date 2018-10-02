@@ -598,3 +598,14 @@ h3, h1, h2 {
     font-family: 'Kanit', sans-serif !important;
 }
 
+.openAboutUs {
+    width: 90%;
+    margin-left: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.container.profile {
+    width: 48%;
+    display: -webkit-inline-box;
+    margin-top: 1em;
+}
