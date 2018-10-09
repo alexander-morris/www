@@ -605,3 +605,14 @@ img.img-inline {
     width: 80% !important;
     margin-left: 10%;
 }
+.openAboutUs {
+    width: 90%;
+    margin-left: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.container.profile {
+    width: 48%;
+    display: -webkit-inline-box;
+    margin-top: 1em;
+}
