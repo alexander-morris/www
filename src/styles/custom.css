@@ -564,6 +564,7 @@ section.about.recentEvents {
 .col-md-4.aboutleft.event {
     padding: 0;
     border-radius: 0.25em;
+    height: 100%;
 }
 .col-md-8.aboutright.event {
     background-color: white;
