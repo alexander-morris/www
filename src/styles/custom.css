@@ -617,3 +617,6 @@ img.img-inline {
     display: -webkit-inline-box;
     margin-top: 1em;
 }
+input.mc_subscribe_email {
+    padding-left: 5px;
+}
